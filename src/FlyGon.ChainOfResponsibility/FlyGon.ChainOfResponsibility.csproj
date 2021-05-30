@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>FlyGon.ChainOfResponsibility</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>João Greco</Authors>
+    <Company>grecojoao</Company>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <RepositoryUrl>https://github.com/grecojoao/FlyGon.ChainOfResponsibility</RepositoryUrl>
+    <Description>Easily use the Chain of Responsibility design pattern.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <NeutralLanguage></NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/grecojoao/FlyGon.ChainOfResponsibility</PackageProjectUrl>
+    <PackageTags>Domain;DDD;Chain;ChainOfResponsibility;FlyGon;FlyGon.ChainOfResponsibility;</PackageTags>
+  </PropertyGroup>
+
+</Project>
