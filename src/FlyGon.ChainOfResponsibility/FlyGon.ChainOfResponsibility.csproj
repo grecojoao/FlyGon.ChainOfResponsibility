@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <PackageId>FlyGon.ChainOfResponsibility</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>João Greco</Authors>
     <Company>grecojoao</Company>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
     <RepositoryUrl>https://github.com/grecojoao/FlyGon.ChainOfResponsibility</RepositoryUrl>
     <Description>Easily use the Chain of Responsibility design pattern.</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -16,6 +16,15 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/grecojoao/FlyGon.ChainOfResponsibility</PackageProjectUrl>
     <PackageTags>Domain;DDD;Chain;ChainOfResponsibility;FlyGon;FlyGon.ChainOfResponsibility;</PackageTags>
+    <PackageReleaseNotes>Added documentation.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>obj\Debug\netstandard2.1\FlyGon.ChainOfResponsibility.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>obj\Release\netstandard2.1\FlyGon.ChainOfResponsibility.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
